@@ -1,0 +1,38 @@
+li.storyteller:first-of-type, li.storyteller:nth-of-type(2) {
+    width: 250px !important;
+    position: fixed !important;
+    bottom: 50px !important;
+    left: 100px !important;
+}
+
+li.storyteller:nth-of-type(2) {
+    left: auto !important;
+    right: 100px !important;
+}
+.in-chat.storyteller .chat {
+    opacity: 1 !important;
+}
+
+.in-chat.storyteller .chat video {
+    opacity: 1 !important;
+}
+
+.in-whisper.storyteller .chat {
+    opacity: 1 !important;
+}
+
+.in-whisper.storyteller .chat video {
+    opacity: 1 !important;
+}
+
+#whispers {
+    width: 60vh !important;
+}
+
+#whispers.small {
+    width: 25vh !important;
+}
+
+#whispers .video.storyteller {
+    display: none;
+}
