@@ -1,11 +1,11 @@
-li.storyteller:first-of-type, li.storyteller:nth-of-type(2) {
+li.storyteller:not(.group):first-of-type, li.storyteller:not(.group):nth-of-type(2) {
     width: 250px !important;
     position: fixed !important;
     bottom: 50px !important;
     left: 100px !important;
 }
 
-li.storyteller:nth-of-type(2) {
+li.storyteller:not(.group):nth-of-type(2) {
     left: auto !important;
     right: 100px !important;
 }
