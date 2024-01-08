@@ -25,14 +25,14 @@ li.storyteller:nth-of-type(2) {
     opacity: 1 !important;
 }
 
-#whispers {
+ul#whispers {
     width: 60vh !important;
 }
 
-#whispers.small {
+ul#whispers.small {
     width: 25vh !important;
 }
 
-#whispers .video.storyteller {
+ul#whispers .video.storyteller {
     display: none;
 }
