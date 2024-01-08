@@ -36,3 +36,18 @@ ul#whispers.small {
 ul#whispers .video.storyteller {
     display: none;
 }
+
+#grimoire.night .player.has-video video {
+	display: none;
+}
+
+#grimoire.night .player.has-video .token {
+	left: 0 !important;
+	top: 0 !important;
+	width: 100% !important;
+	border-width: 3px !important;
+}
+
+#grimoire .circle .reminders {
+    opacity: 1 !important;
+}
