@@ -48,6 +48,13 @@ ul#whispers .video.storyteller {
 	border-width: 3px !important;
 }
 
+#grimoire.night .player.has-video .shroud {
+	left: 0 !important;
+	top: 0 !important;
+	width: 100% !important;
+	height: 25% !important;
+}
+
 #grimoire .circle .reminders {
     opacity: 1 !important;
 }
