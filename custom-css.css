@@ -1,5 +1,5 @@
 li.storyteller:not(.group):first-of-type, li.storyteller:not(.group):nth-of-type(2) {
-    width: 300px !important;
+    width: 250px !important;
     position: fixed !important;
     bottom: 50px !important;
     left: 80px !important;
