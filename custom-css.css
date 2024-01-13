@@ -84,8 +84,6 @@ li.storyteller:not(.group) .chat .video video {
     position: absolute;
     height: 100%;
     pointer-events: none;
-    transition: opacity .25s,transform .25s;
-    transform: scaleX(1);
 }
 
 li.storyteller.in-whisper:not(.group) .token {
