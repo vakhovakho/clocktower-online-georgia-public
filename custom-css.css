@@ -1,13 +1,13 @@
 li.storyteller:not(.group):first-of-type, li.storyteller:not(.group):nth-of-type(2) {
-    width: 250px !important;
+    width: 300px !important;
     position: fixed !important;
     bottom: 50px !important;
-    left: 100px !important;
+    left: 80px !important;
 }
 
 li.storyteller:not(.group):nth-of-type(2) {
     left: auto !important;
-    right: 100px !important;
+    right: 80px !important;
 }
 .in-chat.storyteller .chat {
     opacity: 1 !important;
@@ -60,5 +60,25 @@ ul#whispers .video .chat:hover {
 }
 
 #grimoire .circle .reminders {
-    opacity: 1 !important;
+	opacity: 1 !important;
+}
+
+li.storyteller:not(.group) .chat .video {
+	position: absolute;
+	pointer-events: all;
+	border: 3px solid #000;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	overflow: hidden;
+	cursor: pointer;
+	top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0,0,0,.5);
+}
+
+li.storyteller:not(.group) .token{
+	opacity: 0 !important;
 }
