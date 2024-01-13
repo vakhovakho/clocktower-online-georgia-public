@@ -37,6 +37,10 @@ ul#whispers .video.storyteller {
     display: none;
 }
 
+ul#whispers .video .chat:hover {
+	opacity: 1 !important;
+}
+
 #grimoire.night .player.has-video video {
 	display: none;
 }
