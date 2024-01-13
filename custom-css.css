@@ -79,6 +79,17 @@ li.storyteller:not(.group) .chat .video {
 	background: rgba(0,0,0,.5);
 }
 
-li.storyteller:not(.group) .token{
+li.storyteller:not(.group) .chat .video video {
+	border-radius: 50%;
+    position: absolute;
+    height: 100%;
+    pointer-events: none;
+    transition: opacity .25s,transform .25s;
+    transform: scaleX(1);
+}
+
+li.storyteller.in-chat:not(.group) .token, li.storyteller.in-whisper:not(.group) .token {
 	opacity: 0 !important;
 }
+
+
