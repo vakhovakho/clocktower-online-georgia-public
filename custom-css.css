@@ -1,11 +1,11 @@
-li.storyteller:not(.group):first-of-type, li.storyteller:not(.group):nth-of-type(2) {
+ul.storytellers li.storyteller:not(.group):first-of-type, ul.storytellers li.storyteller:not(.group):nth-of-type(2) {
     width: min(26vw, 26vh) !important;
     position: fixed !important;
     bottom: 50px !important;
     left: 80px !important;
 }
 
-li.storyteller:not(.group):nth-of-type(2) {
+ul.storytellers li.storyteller:not(.group):nth-of-type(2) {
     left: auto !important;
     right: 80px !important;
 }
@@ -31,10 +31,6 @@ ul#whispers {
 
 ul#whispers.small {
     width: 25vh !important;
-}
-
-ul#whispers .video.storyteller {
-    display: none;
 }
 
 ul#whispers .video .chat:hover {
