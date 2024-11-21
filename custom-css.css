@@ -1,89 +1,29 @@
-ul.storytellers li.storyteller:not(.group):first-of-type, ul.storytellers li.storyteller:not(.group):nth-of-type(2) {
-    width: min(26vw, 26vh) !important;
-    position: fixed !important;
-    bottom: 50px !important;
-    left: 80px !important;
+#center {
+	background-image: url("https://i.imgur.com/xMCS7JS.jpeg") !important;
 }
 
-ul.storytellers li.storyteller:not(.group):nth-of-type(2) {
-    left: auto !important;
-    right: 80px !important;
-}
-.in-chat.storyteller .chat {
-    opacity: 1 !important;
+.storytellers {
+	left: 30px !important;
+	top: 10px !important;
 }
 
-.in-chat.storyteller .chat video {
-    opacity: 1 !important;
+.storytellers li {
+	width: min(24vw, 24vh) !important;
 }
 
-.in-whisper.storyteller .chat {
-    opacity: 1 !important;
+.storytellers .nameplate {
+	top: min(22vw, 22vh) !important;
 }
 
-.in-whisper.storyteller .chat video {
-    opacity: 1 !important;
-}
-
-ul#whispers {
-    width: 60vh !important;
-}
-
-ul#whispers.small {
-    width: 25vh !important;
-}
-
-ul#whispers .video .chat:hover {
+ul#whispers .video .chat-video:hover {
 	opacity: 1 !important;
-}
-
-#grimoire.night .player.has-video video {
-	display: none;
-}
-
-#grimoire.night .player.has-video .token {
-	left: 0 !important;
-	top: 0 !important;
-	width: 100% !important;
-	border-width: 3px !important;
-}
-
-#grimoire.night .player.has-video .shroud {
-	left: 0 !important;
-	top: 0 !important;
-	width: 100% !important;
-	height: 25% !important;
 }
 
 #grimoire .circle .reminders {
-	opacity: 1 !important;
+	filter: none !important;
 }
 
-li.storyteller:not(.group) .chat .video {
-	position: absolute;
-	pointer-events: all;
-	border: 3px solid #000;
-	width: 100%;
-	height: 100%;
-	border-radius: 50%;
-	overflow: hidden;
-	cursor: pointer;
-	top: 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background: rgba(0,0,0,.5);
+#grimoire .circle .player .token {
+	filter: none !important;
 }
-
-li.storyteller:not(.group) .chat .video video {
-	border-radius: 50%;
-    position: absolute;
-    height: 100%;
-    pointer-events: none;
-}
-
-li.storyteller.in-whisper:not(.group) .token {
-	opacity: 0 !important;
-}
-
 
