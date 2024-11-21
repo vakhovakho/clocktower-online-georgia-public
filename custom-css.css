@@ -27,3 +27,68 @@ ul#whispers .video .chat-video:hover {
 	filter: none !important;
 }
 
+#center {
+    background-image: url("https://i.imgur.com/xMCS7JS.jpeg") !important;
+}
+
+.storytellers {
+    left: 30px !important;
+    top: 10px !important;
+}
+
+.storytellers li {
+    width: min(24vw, 24vh) !important;
+}
+
+.storytellers .nameplate {
+    top: min(22vw, 22vh) !important;
+}
+
+ul#whispers .video .chat-video:hover {
+	opacity: 1 !important;
+}
+
+#grimoire .circle .reminders {
+	filter: none !important;
+}
+
+#grimoire .circle .player .token {
+  filter: none !important;
+}
+
+.menu .fa-gear {
+	opacity: 0 !important;
+}
+
+.menu .fa-gear:hover {
+	opacity: 1 !important;
+}
+
+aside.tab.night-order .label {
+	opacity: 0 !important;
+	box-shadow: none !important;
+}
+
+aside.tab.character .label {
+	opacity: 0 !important;
+	box-shadow: none !important;
+}
+
+aside.tab.night-order .label:hover {
+	opacity: 1 !important;
+	box-shadow: none !important;
+}
+
+aside.tab.character .label:hover {
+	opacity: 1 !important;
+	box-shadow: none !important;
+}
+
+#version * {
+	display: none !important;
+}
+
+#version .timer {
+	display: block !important;
+}
+
