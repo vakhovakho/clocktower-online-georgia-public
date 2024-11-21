@@ -8,11 +8,11 @@
 }
 
 .storytellers li {
-	width: min(24vw, 24vh) !important;
+	width: min(22vw, 22vh) !important;
 }
 
 .storytellers .nameplate {
-	top: min(22vw, 22vh) !important;
+	top: min(20vw, 20vh) !important;
 }
 
 ul#whispers .video .chat-video:hover {
